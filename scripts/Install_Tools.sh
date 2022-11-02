@@ -26,6 +26,7 @@ wget https://github.com/cobioders/HumanGenome/raw/main/bin/JARVIS2-bin-64-Linux.
 unzip -o JARVIS2-bin-64-Linux.zip
 cp JARVIS2-bin-64-Linux/extra/* .
 cp JARVIS2-bin-64-Linux/JARVIS2.sh .
+cp JARVIS2-bin-64-Linux/JARVIS2 .
 #
 # JARVIS1 ----------------------------------------------------------------------
 #

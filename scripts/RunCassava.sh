@@ -144,10 +144,8 @@ function RUN_JARVIS2_SH {
   C_COMMAND="$2";
   D_COMMAND="$3";
   NAME="$4";
-  C_PROPERTIES="$6"
   #
-  #/bin/time -f "TIME\t%e\tMEM\t%M" ./JARVIS2.sh --level " $C_COMMAND " --block 405MB --threads 8 --dna --input $IN_FILE \
-  /bin/time -f "TIME\t%e\tMEM\t%M" ./JARVIS2.sh --level " $C_COMMAND " "$C_PROPERTIES" --input $IN_FILE \
+  /bin/time -f "TIME\t%e\tMEM\t%M" ./JARVIS2.sh --level " $C_COMMAND " $6 --input $IN_FILE \
   |& grep "TIME" \
   |& tr '.' ',' \
   |& awk '{ printf $2/60"\t"$4/1024/1024"\n" }' > c_time_mem.txt;
