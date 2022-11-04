@@ -12,7 +12,7 @@ CHECK_INPUT () {
   }
 #
 CHECK_INPUT "data.csv";
-cat data.csv | awk '{ print $1} ' | sort -V | uniq > names.txt
+cat data.csv | awk '{ print $4} ' | sort -V | uniq > names.txt
 SIZE=`wc -l names.txt | awk '{ print $1;}'`;
 CHECK_INPUT "names.txt";
 #
@@ -23,7 +23,7 @@ for dint in "${INT_DATA[@]}"
   do
   #
   grep $dint data.csv > data-$idx.csv
-  tmp="'data-$idx.csv' u 3:4 w points ls $idx title '$dint', ";
+  tmp="'data-$idx.csv' u 2:3 w points ls $idx title '$dint', ";
   plotnames="$plotnames $tmp";
   ((++idx));
   #
@@ -43,9 +43,9 @@ gnuplot << EOF
     set key fixed right top vertical Right noreverse noenhanced autotitle nobox
     set style histogram clustered gap 1 title textcolor lt -1
     set xtics border in scale 0,0 nomirror #rotate by -60  autojustify
-    set yrange [0:500]
-    set xrange [:1.75]
-    set xtics auto
+    set yrange [0:200]
+    set xrange [0.35:0.55]
+    set xtics 0.025
     set ytics auto
     set key top right
     #set style line 4 lc rgb '#CC0000' lt 2 dashtype '---' lw 4 pt 5 ps 0.4 # --- red
@@ -64,6 +64,5 @@ gnuplot << EOF
     set ylabel "Real time (minutes)"
     set xlabel "Average number of bits per symbol"
     plot $plotnames
-    #plot "data.csv" u 3:4:1:(column(6)) w points ps variable lc variable
 EOF
 
