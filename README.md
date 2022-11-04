@@ -39,7 +39,7 @@ The 762,392,783 cassava DNA symbols have been compressed (lossless) to
 | bzip2 1.0.8     |<a href="https://sourceware.org/bzip2/">code</a>  | <a href="https://sourceware.org/bzip2/">article</a>|
 | MFCompress      |<a href="http://sweet.ua.pt/ap/software/mfcompress/MFCompress-linux64-1.01.tgz">code</a>  | <a href="https://doi.org/10.1093/bioinformatics/btt594">article</a>|
 | bsc-m03 v0.2.1  |<a href="https://github.com/IlyaGrebnov/bsc-m03">code</a>  | <a href="https://github.com/IlyaGrebnov/bsc-m03">article</a>|
-| JARVIS2         |<a href="https://github.com/pratas/HumanGenome/blob/main/bin/JARVIS2-bin-64-Linux.zip">bin</a>  | no article |
+| JARVIS2         |<a href="https://github.com/cobioders/jarvis2">code</a>  | under review |
 
 </div>
 <br>
