@@ -24,11 +24,11 @@ The 762,392,783 cassava DNA symbols have been compressed (lossless) to
 |7 | 76361940 | 0,400644 | 89.3103 | 8.09911 | GeCo3 | 10 | ![60%](https://progress-bar.dev/60) | 
 |8 | 76381495 | 0,400746 | 80.645 | 11.5973 | GeCo3 | 9 | ![60%](https://progress-bar.dev/60) | 
 |9 | 77864398 | 0,408526 | 47.6038 | 7.28486 | GeCo3 | 11 | ![59%](https://progress-bar.dev/59) | 
-|10 | 77946880 | 0,408959 | 28.0965 | 1.06416 | JARVIS2 | 22 | ![59%](https://progress-bar.dev/59) | 
-|11 | 79370240 | 0,416427 | 18.2642 | 0.616615 | JARVIS2 | 20 | ![58%](https://progress-bar.dev/58) | 
-|12 | 80345790 | 0,421545 | 33.3633 | 0.609802 | JARVIS2 | 16 | ![58%](https://progress-bar.dev/58) | 
+|10 | 77946880 | 0,408959 | 28.0965 | 3.69969 | JARVIS2 | 22 | ![59%](https://progress-bar.dev/59) | 
+|11 | 79370240 | 0,416427 | 18.2642 | 1.849845 | JARVIS2 | 20 | ![58%](https://progress-bar.dev/58) | 
+|12 | 80345790 | 0,421545 | 33.3633 | 3.658812 | JARVIS2 | 16 | ![58%](https://progress-bar.dev/58) | 
 |13 | 81267289 | 0,42638 | 21.5715 | 1.90947 | GeCo3 | 12 | ![57%](https://progress-bar.dev/57) | 
-|14 | 81387520 | 0,427011 | 12.0812 | 0.567005 | JARVIS2 | 23 | ![57%](https://progress-bar.dev/57) | 
+|14 | 81387520 | 0,427011 | 12.0812 | 4.53604 | JARVIS2 | 23 | ![57%](https://progress-bar.dev/57) | 
 |15 | 82134490 | 0,43093 | 25.3817 | 1.78425 | GeCo3 | 13 | ![57%](https://progress-bar.dev/57) | 
 |16 | 86065540 | 0,451555 | 129.71 | 5.66677 | JARVIS1 | 15 | ![55%](https://progress-bar.dev/55) | 
 |17 | 88607613 | 0,464892 | 9.18583 | 1.78432 | GeCo2 | 4 | ![54%](https://progress-bar.dev/54) | 
