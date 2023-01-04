@@ -46,7 +46,7 @@ The 762,392,783 cassava DNA symbols have been compressed (lossless) to
 |30 | 111,431,846 | 1.1693 | 2 | 1 | GeCo2 | 1 | ![42%](https://progress-bar.dev/42)|
 |31 | 133,792,919 | 1.4039 | 8 | 0 | BSC-m03 | 29 | ![30%](https://progress-bar.dev/30) |
 |32 | 169,616,349 | 1.7798 | 1 | 0 | BZIP2-9 | 26 | ![11%](https://progress-bar.dev/11) |
-| Baseline |190,598,196 | 2.000 | -      | -      | 2 BPS   |-          |![0%](https://progress-bar.dev/0) |
+| Baseline |190,598,196 | 2.0000 | -      | -      | 2 BPS   |-          |![0%](https://progress-bar.dev/0) |
 
 </div>
 <br>
