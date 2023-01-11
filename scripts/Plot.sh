@@ -44,8 +44,8 @@ gnuplot << EOF
     set style histogram clustered gap 1 title textcolor lt -1
     set xtics border in scale 0,0 nomirror #rotate by -60  autojustify
     set yrange [0:200]
-    set xrange [0.35:0.55]
-    set xtics 0.025
+    set xrange [0.7:1.1]
+    set xtics 0.05
     set ytics auto
     set key top right
     #set style line 4 lc rgb '#CC0000' lt 2 dashtype '---' lw 4 pt 5 ps 0.4 # --- red
