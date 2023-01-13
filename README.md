@@ -12,7 +12,7 @@ The 762,392,783 cassava DNA symbols have been compressed (lossless) to
 <br>
 <div align="center">
 
-| Rank     |Bytes       |Bps    |Time (m)|RAM (GB)| Program | Replication | Factor(*) |
+| Rank     |Bytes       |Bps    |Time (m)|RAM (GB)| Program | Replication | Factor2(*) |
 |----------|------------|-------|--------|--------|---------|-----------|--------|
 |1 | 69,078,516 | 0.7249 | 193,0 | 11,3 | JARVIS2 | 18 | ![64%](https://progress-bar.dev/64)|
 |2 | 70,063,509 | 0.7352 | 163,2 | 5,9 | JARVIS2 | 17 | ![63%](https://progress-bar.dev/63)|
