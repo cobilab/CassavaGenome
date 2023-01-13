@@ -12,7 +12,7 @@ The 762,392,783 cassava DNA symbols have been compressed (lossless) to
 <br>
 <div align="center">
 
-| Rank     |Bytes       |Bps    |Time (m)|RAM (GB)| Program | Replication | Factor |
+| Rank     |Bytes       |Bps    |Time (m)|RAM (GB)| Program | Replication | Factor(*) |
 |----------|------------|-------|--------|--------|---------|-----------|--------|
 |1 | 69,078,516 | 0.7249 | 193,0 | 11,3 | JARVIS2 | 18 | ![64%](https://progress-bar.dev/64)|
 |2 | 70,063,509 | 0.7352 | 163,2 | 5,9 | JARVIS2 | 17 | ![63%](https://progress-bar.dev/63)|
@@ -51,7 +51,7 @@ The 762,392,783 cassava DNA symbols have been compressed (lossless) to
 </div>
 <br>
 
-<p align="justify">The base line of 2 bits per symbol is used to calculate the (data compression) Factor, which represents the proportion of the sequence that has been fully compressed and is given by 100-((CompressedBytes*8)/(762392783*2)*100). Experiments ran in a Desktop computer running Linux with Intel® Core™ i7-6700 CPU @ 3.40GHz × 8, 31,2 GiB RAM, and disk of 3 TB. The ranking is given by the lowest number of bytes (Kolmogorov complexity approximation).</p>
+<p align="justify">(*) The base line of 2 bits per symbol is used to calculate the (data compression) Factor, which represents the proportion of the sequence that has been fully compressed and is given by 100-((CompressedBytes*8)/(762392783*2)*100). Experiments ran in a Desktop computer running Linux with Intel® Core™ i7-6700 CPU @ 3.40GHz × 8, 31,2 GiB RAM, and disk of 3 TB. The ranking is given by the lowest number of bytes (Kolmogorov complexity approximation).</p>
 
 ### Data compression tools ###
 
