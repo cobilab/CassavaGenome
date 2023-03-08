@@ -399,5 +399,8 @@ RUN_MFC "$FILE" "./MFCompressC -v -1 -p 1 -t 1 " "./MFCompressD " "MFC-1" "30"
 RUN_MFC "$FILE" "./MFCompressC -v -2 -p 1 -t 1 " "./MFCompressD " "MFC-2" "31"
 RUN_MFC "$FILE" "./MFCompressC -v -3 -p 1 -t 1 " "./MFCompressD " "MFC-3" "32"
 #
+RUN_JARVIS2_SH "$FILE" " -lr 0.05 -hs 42 -rm 100:12:1:0.9:7:0.8:1:0.01:250000 -cm 3:1:0:0.9/0:0:0:0 " " --decompress --threads 6 --dna --input " "JARVIS2-sh" "33" " --block 80MB --threads 6 --dna "
+RUN_JARVIS2_SH "$FILE" " -lr 0.05 -hs 42 -rm 100:12:1:0.9:7:0.8:1:0.01:250000 -cm 7:1:0:0.9/0:0:0:0 " " --decompress --threads 8 --dna --input " "JARVIS2-sh" "34" " --block 100MB --threads 8 --dna "
+RUN_JARVIS2_BIN "$FILE" "./JARVIS2 -v -l 28 " "./JARVIS2 -d " "JARVIS2-bin" "35"
 # ==============================================================================
 #
